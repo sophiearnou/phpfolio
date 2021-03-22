@@ -1,11 +1,13 @@
 services:
   php-7.4-fpm:
     image: php:7.4-fpm
+    #build:php-fpm-7
     volumes:
      - ../:/var/www/phpfolio
 
   php-8-fpm:
     image: php:8-fpm
+    #build:php-fpm-8
     volumes:
      - ../:/var/www/phpfolio
  
