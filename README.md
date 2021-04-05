@@ -14,7 +14,7 @@ docker up -d
 
 To go to the php-fpm-8 container
 ```console
-docker exec -it phpfolio_php-fpm-8_1 sh
+docker-compose exec php-fpm-8 sh
 ```
 To check
 ```console
@@ -23,7 +23,7 @@ composer --version
 
 To go to the php-fpm-7 container
 ```console
-docker exec -it phpfolio_php-fpm-7.4_1 sh
+docker-compose exec php-fpm-7.4 sh
 ```
 To check
 ```console
